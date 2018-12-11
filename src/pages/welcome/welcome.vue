@@ -22,8 +22,8 @@ export default {
   height 2rem
   width 2rem
   background-size cover
-  box-shadow 0 0 0 0.1rem white
-  border-radius 0.1rem
+  box-shadow 0 0 0 0.06rem white
+  border-radius 0.06rem
   margin-left auto
   margin-right  auto
   margin-top -1.5rem
