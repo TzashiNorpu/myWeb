@@ -1,11 +1,34 @@
 <template>
-    <div>
-      <img src="@/src/assets/images/guitar.png" alt="">
-    </div>
+  <section>
+    <section class="header"></section>
+    <div class="joker"></div>
+    <p class="textx">陌上花开 可缓缓归矣</p>
+  </section>
 </template>
 
 <script>
 export default {
-  name: 'welcom'
+  name: 'welcome'
 }
 </script>
+<style lang="stylus" scoped>
+.header
+  height 7rem
+  width 100%
+  background url('../../assets/images/guitar.png') 50% 50%
+  background-size cover
+.joker
+  background url('../../assets/images/joker.png')
+  height 2rem
+  width 2rem
+  background-size cover
+  box-shadow 0 0 0 0.1rem white
+  border-radius 0.1rem
+  margin-left auto
+  margin-right  auto
+  margin-top -1.5rem
+.textx
+  text-align center
+  margin-top 1rem
+  color red
+</style>
