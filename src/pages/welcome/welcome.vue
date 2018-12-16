@@ -15,8 +15,9 @@ export default {
 .header
   height 7rem
   width 100%
-  background url('../../assets/images/guitar.png') 50% 50%
+  background url('../../assets/images/guitar.png')
   background-size cover
+  background-position center center
 .joker
   background url('../../assets/images/joker.png')
   height 2rem
